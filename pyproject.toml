@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-support-tickets"
+version = "1.0.0"
+description = "More advanced reusable django application providing a generic support ticket system."
+readme = "README.md"
+authors = [{ name = "Stéphane Claver DIBY", email = "s.diby@waliye.com" }]
+license = {file = "LICENSE"}
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["support", "ticket", "django-ticket", "django-support-tickets"]
+dependencies = [
+    "Django",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/Stefan-ci/Django-Support-Tickets"

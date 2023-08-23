@@ -1,0 +1,4 @@
+# app itself, required to make global django-admin.py work
+-e .
+
+Django>=3.2

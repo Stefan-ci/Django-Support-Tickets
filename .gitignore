@@ -1,0 +1,10 @@
+*.pyc
+*.sqlite3
+.vscode/
+.idea/
+.DS_STORE
+*.log
+*.pot
+*.swp
+build/
+env/
